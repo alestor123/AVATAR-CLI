@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for getting github avatar in cli",
   "main": "App.js",
+  "bin": {
+    "avatar-cli": "App.js"
+  },
   "dependencies": {
     "got": "^11.8.1",
     "terminal-image": "^1.2.1"
